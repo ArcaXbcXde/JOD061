@@ -2,5 +2,11 @@ using System;
 
 Class programa {
 
-    // implementar classe
+    // implementar resto da classe
+    bool fail;
+    int failNum;
+
+    int main(){
+
+    }
 }
