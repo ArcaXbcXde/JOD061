@@ -2,7 +2,20 @@
 
 a) Abra o Prompt de Comando no Windows.
 
+v
+
+
 b) Execute o comando ipconfig. Quais os endereços IPs da sua estação, da máscara de rede e do gateway padrão?
+
+IPv4: 192.168.0.10
+IPv6: 2804:14c:658f:846e:5800:e6e9:309e:4c00
+
+máscara: 255.255.255.0
+
+gateway padrão IPv4: 192.168.0.1
+gateway padrão IPv6: fe80::8e44:4fff:fe65:d9ba%15
+
+
 
 c) Calcule os endereços de rede IPv4 a partir do seu endereço IP da máscara de rede.
 
