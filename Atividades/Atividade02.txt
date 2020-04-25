@@ -1,0 +1,21 @@
+1. Realizar uma pesquisa sobre jogos multiplayer escolhendo um jogo para elaborar uma ficha técnica contendo as seguintes informações.
+
+a) Nome do jogo
+
+Don't Starve Together
+
+b) Classificação: Local ou Online
+
+Há como escolher se quer jogar apenas local ou online.
+
+c) Arquitetura: Cliente-Servidor ou Ponto-a-Ponto
+
+Cliente-servidor, podendo ser servidor dedicado ou servidor ouvinte.
+
+d) Quantidade de jogadores po sessão.
+
+1 a 6 (com mods vai até 64 ou mais)
+
+e) Problemas comuns do jogo.
+
+Se o host cai todos caem, o que pode ser frequente dependendo do que estiverem fazendo dentro do jogo e dos mods instalados.
