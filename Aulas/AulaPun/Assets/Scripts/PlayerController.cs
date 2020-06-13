@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                photonView.RPC("CmdAtirar", RpcTarget.AllBuffered, 10);
+                photonView.RPC("CmdAtirar", RpcTarget.AllBuffered);
             }
         }
     }
@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
     }
 
     [PunRPC]
-    public void CmdAtirar(int valor)
+    public void CmdAtirar()
     {
         Instantiate(bulletPrefab, gun.position, transform.rotation);
     }
