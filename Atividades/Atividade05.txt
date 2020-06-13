@@ -121,7 +121,11 @@ a) No VSCode, pressione as teclas Ctrl+Shift+G para acessar o painel do Git. Em 
 b) Efetive o commit acionando a opção Commit All. Não esqueça de por um comentário ao commit (Ex.: Criando o projeto Atividade05). 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 c) Envie os arquivos versionados para o git remoto acionando a opção Push. Informe usuário/senha e acione a opção Sign in.
 =======
 c) Envie os arquivos versionados para o git remoto acionando a opção Push. Informe usuário/senha e acione a opção Sign in.
 >>>>>>> 1bebeda832b0b313feb75cb19c59ceda299d342e
+=======
+c) Envie os arquivos versionados para o git remoto acionando a opção Push. Informe usuário/senha e acione a opção Sign in.
+>>>>>>> d1c4fb89af3cf5ebea4a1fdf30744e0aa792b934

@@ -1,5 +1,6 @@
 1. Realizar uma pesquisa sobre jogos multiplayer escolhendo um jogo para elaborar uma ficha técnica contendo as seguintes informações.
 
+<<<<<<< HEAD
 a) Nome do jogo
 
 Don't Starve Together
@@ -19,3 +20,10 @@ d) Quantidade de jogadores po sessão.
 e) Problemas comuns do jogo.
 
 Se o host cai todos caem, o que pode ser frequente dependendo do que estiverem fazendo dentro do jogo e dos mods instalados.
+=======
+a) Nomo do jogo
+b) Classificação: Local ou Online
+c) Arquitetura: Cliente-Servidor ou Ponto-a-Ponto
+d) Quantidade de jogadores po sessão.
+e) Problemas comuns do jogo.
+>>>>>>> d1c4fb89af3cf5ebea4a1fdf30744e0aa792b934
