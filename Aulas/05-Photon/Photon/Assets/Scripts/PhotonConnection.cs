@@ -27,7 +27,7 @@ public class PhotonConnection : MonoBehaviourPunCallbacks
     {
         // Entra em uma sala
         RoomOptions options = new RoomOptions();
-        options.MaxPlayers = 4;
+        options.MaxPlayers = 20;
         PhotonNetwork.JoinOrCreateRoom("JOD061", options, TypedLobby.Default);
     }
 
