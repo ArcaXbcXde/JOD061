@@ -12,14 +12,17 @@ public class PlayerController : MonoBehaviour
     void Awake()
     {
         photonView = GetComponent<PhotonView>();
-        photonView.RPC(
+
+        if (photonView.IsMine) {
+            photonView.RPC(
                 "ChangeColor", 
                 RpcTarget.AllBuffered, 
                 Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f)
             );
 
-        Camera.main.transform.SetParent(transform);
-        Camera.main.transform.localPosition = new Vector3(0, 3, -6);
+            Camera.main.transform.SetParent(transform);
+            Camera.main.transform.localPosition = new Vector3(0, 3, -6);
+        }
     }
 
     // Update is called once per frame
